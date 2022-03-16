@@ -4,7 +4,7 @@
 
 ```bash
 sudo chown 1001:1001 .
-docker run --rm -it -v $(pwd):/usr/app/spfx -p 4321:4321 -p 35729:35729 m365pnp/spfx:1.13.1
+docker run --rm -it -v $(pwd):/usr/app/spfx -p 4321:4321 -p 35729:35729 m365pnp/spfx:1.14.0
 ```
 
 Run inside container:
