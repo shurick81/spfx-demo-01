@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "Secret Generator",
+    "componentDescription": "Secret Generator web part",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "personal-assistance",
+    "libraryId": "dd896969-74b1-43ba-aa55-799dab363fba",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Personal Assistance",
+    "solutionShortDescription": "Personal Assistance description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}

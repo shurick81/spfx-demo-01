@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "personal-assistance-client-side-solution",
+    "id": "dd896969-74b1-43ba-aa55-799dab363fba",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Personal Assistance description"
+      },
+      "longDescription": {
+        "default": "Personal Assistance description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "personal-assistance Feature",
+        "description": "The feature that activates elements of the personal-assistance solution.",
+        "id": "378bb385-9e14-4fc9-8faf-5430aab4dc9e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/personal-assistance.sppkg"
+  }
+}
