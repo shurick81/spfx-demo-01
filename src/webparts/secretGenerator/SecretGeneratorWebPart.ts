@@ -27,7 +27,22 @@ export default class SecretGeneratorWebPart extends BaseClientSideWebPart<ISecre
     return super.onInit();
   }
 
+  private registerLiveReload() {
+    if (this.context.manifest["loaderConfig"]["internalModuleBaseUrls"][0]
+                         .indexOf("https://localhost:4321") !== -1) {
+  
+      // create a new <script> element
+      let script = document.createElement('script');
+      // assign the src attribute to the livereload serve
+      script.src = "//localhost:35729/livereload.js?snipver=1";
+      // add script to the head section of the page
+      document.head.appendChild(script);
+  
+    }
+  }
   public render(): void {
+    // register live reload
+    this.registerLiveReload();
     const element: React.ReactElement<ISecretGeneratorProps> = React.createElement(
       SecretGenerator,
       {
